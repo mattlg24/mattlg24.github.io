@@ -1,4 +1,4 @@
-const app = angular.module('myApp', [])
+var app = angular.module('myApp', [])
 
 app.controller('MainController', ['$scope', function($scope) {
 
