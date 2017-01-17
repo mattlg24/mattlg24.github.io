@@ -25,12 +25,12 @@
 
     <div class="hero">
 
-        <ul>
+        <ul class="pageLinks">
             <li><a href="#">About Me</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact Me</a></li>
         </ul>
-        <!-- <br><br><br><br><br> -->
+
         <h1>Matt Gardner</h1>
 
     </div>
@@ -39,7 +39,7 @@
 
         <div class="about">
 
-            <h2>About Me</h2>
+            <h4 class="titles">About Me</h4>
             <p>I am an aspiring web developer who enjoys writing code and creating web sites, as well as working through and solving problems.</p>
 
         </div>
@@ -51,53 +51,66 @@
         <div class="container">
             <div class="portfolio">
 
-                <h4>Portfolio</h4>
+                <h4 class="titles">Portfolio</h4>
 
                 <div class="row">
-                    <div class="col s12 m7 l4">
+                    <div class="col s12 m12 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img class="image" src="./images/cereal_killer.png">
-                                <span class="card-title">Card Title</span>
                             </div>
+                        </div>
+                        <div class="card">
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <span class="card-title">Cereal Killer</span>
+                                <p>Online resource for searching and rating breakfast cereals</p>
+                                <br>
+                                <p>Tech - AngularJS, NodeJs, Express, PostgreSQL, Bootstrap, Heroku, ZingChart</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="http://cereal-killer.herokuapp.com/#/" target="blank">This is a link</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col s12 m7 l4">
+                    <div class="col s12 m12 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img class="image" src="./images/flick_pick.png">
-                                <span class="card-title">Card Title</span>
                             </div>
+                        </div>
+                        <div class="card">
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <span class="card-title">Flick Pick</span>
+                                <p>Web page that displays online resources for watching movies as well as various info about the queried movie</p>
+                                <br>
+                                <p>Tech - Javascript, jQuery, AJAX, Materialize, Guidebox API</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="http://mattlg24-flick-pick.surge.sh/" target="blank">This is a link</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col s12 m7 l4">
+                    <div class="col s12 m12 l4">
                         <div class="card">
                             <div class="card-image">
-                                <img class="image" src="./images/cereal_killer.png">
-                                <span class="card-title">Card Title</span>
+                                <img class="image" src="./images/reddit.png">
                             </div>
+                        </div>
+                        <div class="card">
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <span class="card-title">Reddit</span>
+                                <p>Single-page app incorporating AngularJS client-side rendering</p>
+                                <br>
+                                <p>Tech - AngularJS, NodeJS, Express, PostgreSQL, Bootstrap, Heroku</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="https://reddit-refactor.herokuapp.com/#/" target="blank">This is a link</a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!-- End portfolio div -->
@@ -109,13 +122,18 @@
     <div class="container">
         <div class="contact">
 
-            <h2>Contact Info here</h2>
+            <h4 class="titles">Contact Info here</h4>
 
             <h5>Matt Gardner</h5>
 
-            <a href="https://github.com/mattlg24">GitHub</a>
-            <a href="https://www.linkedin.com/in/mattlgardner">LinkedIn</a>
+            <ul class="contact">
+                <li><a href="https://github.com/mattlg24">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/mattlgardner">Linked In</a></li>
+                <li><a href="https://www.linkedin.com/in/mattlgardner">Resume</a></li>
+            </ul>
 
+            <p>matthewlgardner@gmail.com
+                <br> Denver, Colorado</p>
 
         </div>
         <!-- End contact div -->
